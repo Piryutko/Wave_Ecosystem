@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Shield, Zap, Palette, Brain } from 'lucide-react';
+import { Shield, Zap, Palette, Brain, Clock, CheckSquare, MessageCircle } from 'lucide-react';
 import { ScrollReveal, StaggerContainer, StaggerItem } from '../components/ScrollReveal';
 
 const features = [
@@ -94,13 +94,57 @@ export function WhyWave() {
           ))}
         </StaggerContainer>
 
-        {/* Bottom highlight */}
-        <ScrollReveal delay={0.4} className="mt-12">
-          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500">
-            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm">
-              <div className="w-2 h-2 rounded-full bg-ocean-start animate-pulse"></div>
-              <span>Безопасное хранение данных</span>
-            </div>
+
+        {/* Product Ecosystem Badges */}
+        <ScrollReveal delay={0.4} className="mt-16 pt-8 border-t border-gray-100">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
+            <motion.a 
+              href="https://timewave-ai.netlify.app/"
+              target="_blank" rel="noopener noreferrer"
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              className="flex items-center gap-3 px-5 py-3 rounded-2xl bg-white border border-gray-100 shadow-sm transition-all hover:shadow-md hover:border-ocean-start/30 cursor-pointer"
+            >
+              <div className="w-8 h-8 rounded-lg bg-ocean-start/10 flex items-center justify-center">
+                <Clock className="w-4 h-4 text-ocean-start" />
+              </div>
+              <div>
+                <span className="font-semibold text-gray-900 block leading-tight text-nowrap">TimeWave AI</span>
+                <span className="text-gray-500 text-xs text-nowrap">Управляй созвонами</span>
+              </div>
+            </motion.a>
+            
+            <motion.a 
+              href="https://taskwave-ai.netlify.app/"
+              target="_blank" rel="noopener noreferrer"
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              className="flex items-center gap-3 px-5 py-3 rounded-2xl bg-white border border-gray-100 shadow-sm transition-all hover:shadow-md hover:border-indigo-500/30 cursor-pointer"
+            >
+              <div className="w-8 h-8 rounded-lg bg-indigo-50 flex items-center justify-center">
+                <CheckSquare className="w-4 h-4 text-indigo-600" />
+              </div>
+              <div>
+                <span className="font-semibold text-gray-900 block leading-tight text-nowrap">TaskWave AI</span>
+                <span className="text-gray-500 text-xs text-nowrap">Автоматизируй задачи</span>
+              </div>
+            </motion.a>
+
+            <motion.a 
+              href="https://tonewave-ai.netlify.app/"
+              target="_blank" rel="noopener noreferrer"
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              className="flex items-center gap-3 px-5 py-3 rounded-2xl bg-white border border-gray-100 shadow-sm transition-all hover:shadow-md hover:border-emerald-500/30 cursor-pointer"
+            >
+              <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center">
+                <MessageCircle className="w-4 h-4 text-emerald-600" />
+              </div>
+              <div>
+                <span className="font-semibold text-gray-900 block leading-tight text-nowrap">ToneWave AI</span>
+                <span className="text-gray-500 text-xs text-nowrap">Общайся профессионально</span>
+              </div>
+            </motion.a>
           </div>
         </ScrollReveal>
       </div>
