@@ -101,14 +101,6 @@ export function WhyWave() {
               <div className="w-2 h-2 rounded-full bg-ocean-start animate-pulse"></div>
               <span>Безопасное хранение данных</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm">
-              <div className="w-2 h-2 rounded-full bg-ocean-mid animate-pulse"></div>
-              <span>Без подписок и API-ключей</span>
-            </div>
-            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm">
-              <div className="w-2 h-2 rounded-full bg-ocean-deep animate-pulse"></div>
-              <span>Open Source</span>
-            </div>
           </div>
         </ScrollReveal>
       </div>
