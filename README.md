@@ -1,24 +1,24 @@
-# Wave Ecosystem: Local AI Tools Landing Page
+# Wave Ecosystem: Лендинг локальных ИИ-инструментов
 
-A modern, high-performance landing page for the Wave ecosystem of AI tools.
+Современный и высокопроизводительный лендинг для экосистемы инструментов Wave на базе искусственного интеллекта.
 
-## Features
-- **Wave Landing**: Unified entry point for all Wave tools.
-- **TimeWave AI**: AI-powered temporal planning and management.
-- **TaskWave AI**: Local task management and automation.
-- **ToneWave AI**: Voice and audio processing tools.
+## Особенности
+- **Wave Landing**: Единая точка входа для всех инструментов Wave.
+- **TimeWave AI**: Интеллектуальное временное планирование и управление задачами.
+- **TaskWave AI**: Локальное управление задачами и автоматизация.
+- **ToneWave AI**: Инструменты обработки голоса и аудио.
 
-## Key Principles
-- **100% Privacy**: All processing happens locally on your machine.
-- **Offline First**: Works without an internet connection.
-- **Open Technologies**: Powered by Ollama (models) and Whisper (speech-to-text).
+## Ключевые принципы
+- **100% Приватность**: Вся обработка происходит локально на вашем устройстве.
+- **Offline First**: Работает без подключения к интернету.
+- **Открытые технологии**: Использует Ollama (модели) и Whisper (распознавание речи).
 
-## Tech Stack
-- **Framework**: Vite + React
-- **Styling**: Tailwind CSS + Framer Motion (animations)
-- **UI Components**: Radix UI + Shadcn UI
+## Технологический стек
+- **Фреймворк**: Vite + React
+- **Стилизация**: Tailwind CSS + Framer Motion (анимации)
+- **UI Компоненты**: Radix UI + Shadcn UI
 
-## Getting Started
-1. Navigate to the `app` directory: `cd app`
-2. Install dependencies: `npm install`
-3. Run development server: `npm run dev`
+## Как запустить
+1. Перейдите в папку приложения: `cd app`
+2. Установите зависимости: `npm install`
+3. Запустите сервер для разработки: `npm run dev`
